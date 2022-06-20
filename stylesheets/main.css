@@ -1,0 +1,87 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+  background-color: #AA0000;
+  padding: 20px;
+  padding-left: 30px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+#headerLink {
+  color: #FFFFFF;
+  padding: 5px;
+  font-size: 15px;
+}
+
+#underHeader {
+  display: flex;
+  justify-content: flex-end;
+  color: #FFFFFF;
+  background-color: #333333;
+  padding: 20px;
+}
+
+footer {
+  color: #FFFFFF;
+  background-color: #333333;
+  padding: 20px;
+}
+
+#columnContainer {
+  display: flex;
+  background-color: #FFFFFF;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#leftColumn {
+  flex: 3;
+}
+
+#rightColumn {
+  display: flex;
+  flex: 1;
+  padding-left: 60px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#blurbHeader {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.blurbParagraph {
+  padding: 5px;
+  padding-left: 15px;
+}
+
+#main_image {
+  width: 100%;
+}
+
+.smallImageBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.smallImageTitle {
+  flex: 1;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 5px;
+}
+
+.smallImage {
+  max-width: 80%
+}
+
+.underHeaderLink {
+  color: #FFFFFF;
+  padding: 5px;
+}
